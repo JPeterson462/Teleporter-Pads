@@ -1,0 +1,15 @@
+name: TeleporterPads
+version: 1.0
+main: com.digiturtle.teleporter.TeleporterPads
+commands:
+  tpad:
+    description: Main command for Teleporter Pads.
+    usage: See /tpad help for usage information
+permissions:
+  tpad.create:
+    description: Create a teleporter pad
+  tpad.destroy:
+    description: Destroy a teleporter pad
+  tpad.list:
+    description: List all teleporter pads
+    default: true
